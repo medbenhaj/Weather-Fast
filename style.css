@@ -254,12 +254,13 @@ body.active {
   background-color: #1b1b1b;
 }
 #contentBody {
+  margin-left: 10%;
+  margin-right: 10%;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   gap: none;
-   
-  width: 100%;
-  height: 1000px;
+  width: auto;
+  height: 400px;
 }
 #centerColumn {
    
@@ -1253,4 +1254,14 @@ b {
 #locationdiv.active{
   border: 2px solid #FF2AFD;
   box-shadow: 5px 5px 0px white;
+}
+#hourlyforcast {
+  border-radius: 20px;
+  border: 2px solid #00ff9f;
+  width: 100%;
+  height: 200px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 0px #1b1b1b;
 }
