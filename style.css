@@ -1265,14 +1265,24 @@ b {
 #hourlyforcast {
   border-radius: 20px;
   border: 2px solid #00ff9f;
-  width: auto;
+  width: 50%;
   height: 100px;
   margin-left: 5%;
   margin-right: 5%;
   justify-content: center;
   align-items: center;
   box-shadow: 5px 5px 0px #1b1b1b;
+  overflow-x: auto;
+  scrollbar-width: 100%;
+  scroll-behavior: smooth;
 }
 #hourslist {
   
 }
+.hours-forcast-header {
+  font-family: 'figtree';
+}
+.hours-forcast-data {
+  font-family: 'figtree';
+}
+
